@@ -1,0 +1,10 @@
+public class Program {
+    public static void main(String[] args) {
+        for (int x=5;x<80;x=x+5){
+            if(x==60){
+            continue;
+            }
+            System.out.println(x);
+        }
+}
+}
